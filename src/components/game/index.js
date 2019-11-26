@@ -1,16 +1,22 @@
-import React, {Component} from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.css';
 
+export default function Game(){
+    
 
-class Game extends Component {
-    render(){
-        return (
-            <>
-                <header>Header</header>
-                <div>Game</div>
-            </>
-        );
-    }
+    return (
+        <>
+            <header>
+                <p>
+                    Questão: blablablabla
+                </p>
+            </header>
+            <section class="game-question">
+                <div class="game-console"></div>
+                <div class="game-resposta"></div>
+            </section>
+        </>
+    );
+    
 }
 
-export default Game;
