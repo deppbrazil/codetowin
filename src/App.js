@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import Dashboard from './components/dashboard';
-import Game from './components/game';
+import Routes from './routes';
+
 
 
 function App() {
   return (
     <>
-      <Dashboard/>
-      <Game/>
+      <Routes/>
     </>
   );
 }

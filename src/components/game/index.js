@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './style.css';
 
 
-function Dashboard() {
-    return (
-        <>
-            <header>Header</header>
-            <div>Game</div>
-        </>
-    );
+class Game extends Component {
+    render(){
+        return (
+            <>
+                <header>Header</header>
+                <div>Game</div>
+            </>
+        );
+    }
 }
 
-export default Dashboard;
+export default Game;
