@@ -1,7 +1,47 @@
-header {
-    background-color: red;  
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-div {
-    background-color: green;
-}   
+.head {
+    width: 100%;
+    height: auto;
+    background-color: #f0f0f0;
+}
+
+.wrapper__head {
+    width: 90%;
+    height: 100%;
+    margin: 1px;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+
+.wrapper__head--center {
+    width: 90%;
+    height: 100%;
+    margin: 1px;
+    flex-direction: row;
+}
+
+.wrapper__avatar {
+    width: auto;
+    height: auto;
+    flex-direction: row;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: silver;
+}
+
+.wrapper__text {
+    border: 1px solid black;
+}
+
