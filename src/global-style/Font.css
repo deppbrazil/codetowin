@@ -4,9 +4,10 @@
 }
 
 
-h1 {
+h1, button {
     font-family: ballo-bhai;
 }
+
 
 *,
 h2 {

@@ -8,24 +8,29 @@
 .game-head {
   width: 100%;
   height: auto;
-  padding-top: 40px;
   background-color: var(--primary);
   margin-bottom: 10px;
 }
 
-.game-head-wrapper {
-  font-size: 2rem;
-
+.game-question {
+  width: 100%;
+  
 }
 
-.game-question{
+
+.game-head-wrapper {
+  font-size: 2rem;
+  width: 90%;
+  height: 100px;
+}
+
+.game-question-board{
   width: 90%;
   display: flex;
   margin: 0 auto;
 }
 
 .game-console {
-  height: 60px;
   min-width: 70%;
   border: 1px solid #000;
   margin-right: 1px;
@@ -33,9 +38,8 @@
 
 .game-resposta {
   min-width: 30%;
-  height: 60px;
-  max-width: 60%;
+  display: flex;
+  flex-wrap: wrap;
   background-color: red;
   border: 1px solid #000;
-
 }
