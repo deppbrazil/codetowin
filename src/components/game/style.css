@@ -1,5 +1,6 @@
 .game-page {
-
+  background-color: var(--second);
+  height: 100vh;
 }
 
 ._flexbox {
@@ -17,7 +18,7 @@
 
 .game-question {
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   
 }
 
@@ -29,48 +30,49 @@
 
 .game-question-board{
   width: 90%;
+  height: 300px;
   display: flex;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .game-console {
   min-width: 70%;
-  border: 1px solid #000;
-  margin-right: 1px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 .game-resposta {
   min-width: 30%;
   display: flex;
   flex-wrap: wrap;
-  background-color: red;
+  background-color: var(--primary);
   border: 1px solid #000;
   justify-content: center;
+  border-radius: 10px;
+
 }
 
-.answer-list {
-  list-style: none;
-  margin-left: 10px;
-  margin-top: 10px;
-}
 
 ._hide {
   display: none;
 }
 
-._show {
-  display: inline;
-  color: green;
-}
 
 .answer-button {
   border: none;
   padding: 10px;
   margin: 10px;
   border-radius: 12px;
+  cursor: pointer;
+  background-color: var(--blue);
 }
 
 .tag {
-  width: 90%;
-  
+  width: 70%;
+  height: 30%;
+}
+
+._resposta {
+  width: 100%;
 }

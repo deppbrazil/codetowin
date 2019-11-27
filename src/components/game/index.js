@@ -11,12 +11,17 @@ export default function Game(){
     
     const handleClick = (e) => {
            
-
+    const resposta = document.querySelector(".tag._hide");
+    const botao = e.target;
     if(e.target.classList.contains("_correct")){
-        const resposta = document.querySelector(".tag._hide");
         resposta.classList.remove("_hide");
-  
+        botao.disabled = true;
     }
+    if(e.target.classList.contains("_resposta")){
+        resposta.classList.remove("_hide");
+        botao.disabled = true;
+    }
+
 }
 
 
@@ -42,7 +47,9 @@ export default function Game(){
                     <button className="answer-button" onClick={handleClick}>Declarar L = 10</button>
                     <button className="answer-button _correct" onClick={handleClick}>Declarar L = 20</button>
                     <button className="answer-button _correct" onClick={handleClick}>Declarar P = 10</button>
-                    <button className="answer-button" onClick={handleClick}>Declarar P = 20</button></div>
+                    <button className="answer-button" onClick={handleClick}>Declarar P = 20</button>
+                    <button className="answer-button _resposta" onClick={handleClick}>Resposta</button></div>
+
 
             </section>
         </section>
