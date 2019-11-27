@@ -1,4 +1,4 @@
-# CODETOIN
+# CodeToWin.app
 
 <!-- Translate -->
 <!-- <a href="./README-pt-br.md">
@@ -8,7 +8,7 @@
 <!-- Banner -->
 <p align="center">
   <a href="" target="_blank" >
-    <img alt="" src="./.github/assets/brand.jpg" width="300" />
+    <img alt="" src="./.github/assets/brand.jpg" width="100%" />
   </a>
 </p>
 
