@@ -1,9 +1,11 @@
 h1 {
     font-size: 25px;
     line-height: 30px;
+    color: var(--yellow);
 }
 
 h2 {
     font-size: 15px;
     line-height: 20px;
+    color: var(--yellow);
 }

@@ -8,23 +8,16 @@
 .head {
     width: 100%;
     height: auto;
-    background-color: #f0f0f0;
+    padding-top: 40px;
+    background-color: var(--primary);
 }
 
 .wrapper__head {
     width: 90%;
+    max-width: 1200px;
     height: 100%;
-    margin: 1px;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid blue;
-}
-
-.wrapper__head--center {
-    width: 90%;
-    height: 100%;
-    margin: 1px;
-    flex-direction: row;
 }
 
 .wrapper__avatar {
@@ -37,11 +30,61 @@
     width: 100px;
     height: 100px;
     margin-right: 20px;
-    border-radius: 50%;
-    background-color: silver;
+    border-radius: 50px;
+    background-color: var(--blue);
 }
 
 .wrapper__text {
-    border: 1px solid black;
+    width: auto;
 }
 
+.wrapper__coin {
+    flex-direction: row;
+}
+
+.coin {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: var(--yellow);
+}
+
+.wrapper__head--center {
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 1px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    margin: 10px 0 40px;
+    border: 1px solid var(--yellow);
+}
+
+/* Anime progress bar */
+@keyframes loading {
+    0% { width: 20px }
+    25% { width: 10%}
+    50% { width: 50% }
+    100% { width: 100%}
+}
+
+.progress-bar {
+    background-color: transparent;
+    position: relative;
+}
+
+.progress-bar::after {
+    animation: loading 12s  ease-in-out;
+    background-color: var(--yellow);
+    content: '';
+    position: absolute;
+    border-radius: 20px;
+    left: 0; top: 0; bottom: 0
+}

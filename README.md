@@ -47,6 +47,15 @@ foo@bar:~$ npm install, or
 foo@bar:~$ yarn install
 ```
 
+## Color
+```css
+* Primary: #303030;
+* Blue: #00ffff;
+* Yellow: #ffff00;
+```
+
+## Font 
+* [Ballo Bhai](https://fonts.google.com/specimen/Baloo+Bhai?selection.family=Baloo+Bhai)
 
 <!-- ## License
 *   [MIT](./LICENSE) &copy; XXX -->
