@@ -13,19 +13,16 @@
   width: 100%;
   height: auto;
   background-color: var(--primary);
-  margin-bottom: 10px;
 }
 
 .game-question {
   width: 100%;
   font-size: 2rem;
-  
 }
-
 
 .game-head-wrapper {
   width: 90%;
-  height: 100px;
+  height: 200px;
 }
 
 .game-question-board{
@@ -38,6 +35,10 @@
 .game-console {
   min-width: 70%;
   margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   background-color: #fff;
 }
@@ -46,24 +47,25 @@
   min-width: 30%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   background-color: var(--primary);
-  border: 1px solid #000;
   justify-content: center;
   border-radius: 10px;
 
 }
 
-
 ._hide {
   display: none;
 }
 
-
 .answer-button {
-  border: none;
+  width: auto;
+  height: 40px;
   padding: 10px;
-  margin: 10px;
-  border-radius: 12px;
+  border: none;
+  margin: 5px;
+  border-radius: 20px;
   cursor: pointer;
   background-color: var(--blue);
 }
@@ -75,4 +77,5 @@
 
 ._resposta {
   width: 100%;
+  height: 40px;
 }
