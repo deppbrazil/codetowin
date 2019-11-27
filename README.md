@@ -26,10 +26,6 @@
   <a href="https://github.com/leonardoavelino/codetowin">
     <img alt="Repo size" src="https://img.shields.io/github/repo-size/leonardoavelino/codetowin.svg?color=brightgreen" />
   </a>
-</p>
-
-<!-- Seconds badges -->
-<p align="center">
   <!-- Contributors -->
   <a href="https://github.com/leonardoavelino/codetowin/graphs/contributors">
     <img alt="Contributors project" src="https://img.shields.io/github/contributors/leonardoavelino/codetowin.svg?color=blue" />
@@ -43,6 +39,7 @@
     <img alt="Software License" src="https://img.shields.io/badge/license-MIT-blue.svg">
   </a> -->
 </p>
+
 
 ## Get Started
 ```console
