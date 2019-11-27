@@ -59,3 +59,19 @@ foo@bar:~$ yarn install
 
 <!-- ## License
 *   [MIT](./LICENSE) &copy; XXX -->
+
+## Problem Description
+
+O objetivo do produto é estimular o desenvolvimento do Pensamento Computacional, por meio do ensino de Programação em conjunto com as disciplinas do currículo base (ex. matemática). Visto que, com a homologação da Base Nacional Comum Curricular (BNCC), em conjunto com as orientações relacionadas às competências gerais, com ênfase para a competência geral Cultura Digital, é factível pensar em soluções que abordem temáticas que relacionam tecnologia e o cotidiano escolar.
+
+## Product Description
+
+O CodeToWin tem como objetivo introduzir conceitos de programação em paralelo com a apresentação de problemas apresentados nas disciplinas do ensino médio. A partir da disposição de desafios matemáticos por exemplo, o aluno terá de solucionar problemas reais por meio de estruturas de código de programação. Iniciando com tarefas simples, alinhadas ao paradigma de programação visual, o aluno irá identificar blocos de código que compôem a sequência lógica completa para a solução do problema imposto. A medida com que o aluno soluciona os desafios, ele obtem XP e moedas: o XP para a classificação no Ranking e as moedas para comprar dicas em problemas mais complexos.
+
+## Target
+
+Redes de escolas que precisam se adaptar as novas diretrizes estabelecidas pela BNCC são os nossos clientes em potencial. Visto que os alunos são os usuários finais da aplicação, eles poderão, por meio de parcerias das escolas com empresas locais, serem alocados no mercado de trabalho como jovens aprendizes em empresas de tecnologia.
+
+
+
+

@@ -1,3 +1,6 @@
+.game-page {
+
+}
 
 ._flexbox {
   display: flex;
@@ -14,12 +17,12 @@
 
 .game-question {
   width: 100%;
+  font-size: 1.5rem;
   
 }
 
 
 .game-head-wrapper {
-  font-size: 2rem;
   width: 90%;
   height: 100px;
 }
@@ -42,4 +45,32 @@
   flex-wrap: wrap;
   background-color: red;
   border: 1px solid #000;
+  justify-content: center;
+}
+
+.answer-list {
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+._hide {
+  display: none;
+}
+
+._show {
+  display: inline;
+  color: green;
+}
+
+.answer-button {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.tag {
+  width: 90%;
+  
 }
