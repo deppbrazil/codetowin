@@ -22,7 +22,7 @@ function Dashboard() {
                     </div>
                 </div>
                 <div className="wrapper__head--center flexbox">
-                    <h1 className="h1">100 / 1000</h1>
+                    <h1 className="h1">800 / 1000</h1>
                     <div className="progress-bar flexbox"></div>
                 </div>
             </header>

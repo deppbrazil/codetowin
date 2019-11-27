@@ -1,3 +1,23 @@
+
+._flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-head {
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+  background-color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.game-head-wrapper {
+  font-size: 2rem;
+
+}
+
 .game-question{
   width: 90%;
   display: flex;
