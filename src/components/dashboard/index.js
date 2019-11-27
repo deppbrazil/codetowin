@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import './text.css';
 import '../../global-style/Font.css';
-
+import { Link } from 'react-router-dom';
 
 function Dashboard() {
     return (
@@ -22,13 +22,41 @@ function Dashboard() {
                     </div>
                 </div>
                 <div className="wrapper__head--center flexbox">
-                    <h1 className="h1">800 / 1000</h1>
+                    <h1 className="h1">300 / 3000</h1>
                     <div className="progress-bar flexbox"></div>
                 </div>
             </header>
         
-            <section>
-                <div></div>
+            <section className="container flexbox">
+                <div className="container__wrapper flexbox">
+                    <div className="wrapper__stage flexbox">
+                        <h1 className="h1">Fase 1</h1>
+                        <div className="wrapper__icon-stage flexbox">
+                            <div className="icon-stage complete flexbox"><div className="checked"></div></div>
+                                <Link className="link" to="/game">
+                                    <button className="icon-stage active"></button>
+                                </Link>
+                            <div className="icon-stage disable"></div>
+                            <div className="line"></div>
+                        </div>
+                    </div>
+                    <div className="wrapper__stage flexbox">
+                        <h1 className="h1">Fase 2</h1>
+                        <div className="wrapper__icon-stage flexbox">
+                            <div className="icon-stage disable"></div>
+                            <div className="icon-stage disable"></div>
+                            <div className="line"></div>
+                        </div>
+                    </div>
+                    <div className="wrapper__stage flexbox">
+                        <h1 className="h1">Fase 3</h1>
+                        <div className="wrapper__icon-stage flexbox">
+                            <div className="icon-stage disable"></div>
+                            <div className="icon-stage disable"></div>
+                            <div className="line"></div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </>
     );
