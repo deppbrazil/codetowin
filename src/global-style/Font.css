@@ -1,0 +1,9 @@
+@font-face {
+    font-family: ballo-bhai;
+    src: url('./font/baloo-bhai/baloo-bhai-regular.ttf');
+}
+
+
+h1 {
+    font-family: ballo-bhai;
+}

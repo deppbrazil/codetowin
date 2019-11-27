@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import './text.css';
+import '../../global-style/Font.css';
 
 
 function Dashboard() {
